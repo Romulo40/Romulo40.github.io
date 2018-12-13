@@ -14,11 +14,13 @@
     display: inline-block;
     width: 20%;
     padding: 300px;
+    float: left;
 }
 .sidebar{
     background-color: rgb(1, 88, 35);
     display: inline-block;
     width: 20%;
     padding: 100px;
+    float: right;
     
 }
