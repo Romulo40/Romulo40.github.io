@@ -13,14 +13,21 @@
     background-color: rgb(139, 236, 176);
     display: inline-block;
     width: 20%;
-    padding: 300px;
+    padding: 280px;
     float: left;
+}
+.footer{
+    background-color: rgb(1, 88, 35);
+    display: block;
+    text-align: center;
+    
 }
 .sidebar{
     background-color: rgb(1, 88, 35);
-    display: inline-block;
+    display: block;
     width: 20%;
-    padding: 100px;
+    padding: 115px;
     float: right;
     
 }
+
