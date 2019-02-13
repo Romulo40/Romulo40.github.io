@@ -10,6 +10,7 @@ body{
 .header{
     background: linear-gradient(#333,#fff);
     display: flex;
+    justify-content: space-between;
 
 }
 .header h1{
@@ -20,9 +21,8 @@ body{
     text-shadow: 3px 3px orange;
 }
 .menu{
-    margin: 0px;
+    margin-top: 25px;
     padding: 0px;
-    float: right;
     list-style: none;
     border: 1px solid #c0c0c0;
     display: flex;
@@ -42,7 +42,7 @@ body{
     display: inline-block;  
 }
 .menu li a:hover {
-    
+    border-bottom: 2px solid goldenrod;
     color: #fff;
 }
 .corpo{
@@ -88,10 +88,9 @@ body{
     
 }
 .noticias:hover{
-    box-shadow: 1px 1px #274863, 2px 2px #274863, 
-    3px 3px #274863;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
+    box-shadow: 0px 0px 1em #666;
+-webkit-box-shadow: 0px 0px 1em #666;
+-moz-box-shadow: 0px 0px 1em #666;
 }
 .noticias h1{
     color: #333;
