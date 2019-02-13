@@ -1,13 +1,121 @@
-menu ul{
+body{
+    background: linear-gradient(#333,#fff);
+}
+.principal{
+	width: 960px;
+	color: #444;
+	margin: 0 auto;
+    font-family:sans-serif;
+}
+.header{
+    background: linear-gradient(#333,#fff);
+    display: flex;
+    justify-content: space-between;
+
+}
+.header h1{
+    padding-left: 10px;
+    display: block;
+    float: left;
+    background: rgba(255,255,255,0.5);
+    text-shadow: 3px 3px orange;
+}
+.menu{
+    margin-top: 25px;
     padding: 0px;
-    margin: 0px;
-    background-color: #EDEDED;
     list-style: none;
+    border: 1px solid #c0c0c0;
+    display: flex;
+    background: rgba(255,255,255,0.5);    
 }
-menu ul li{
-    display: inline;
-}
-menu ul li a{
-    padding: 2px 10px;
+.menu li{
     display: inline-block;
+    margin: 0px;
+    position: relative;
+    float: right;
+    border-right: 1px solid #c0c0c0;   
+}
+.menu li a{
+    color:#333; 
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;  
+}
+.menu li a:hover {
+    border-bottom: 2px solid goldenrod;
+    color: #fff;
+}
+.corpo{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(azure, rgb(118, 133, 128));
+    box-shadow: 5px 5px 10px #60737a;
+    -webkit-box-shadown: 5px 5px 2px #60737a;
+    -moz-box-shadown: -1px -1px 2px #60737a;
+    
+}
+.artigos{
+    float: left;
+}
+.artigos h1{
+    text-shadow: #333 1px 2px 3px;
+    
+}
+.artigos, .artigos::before{
+    width: 100%;
+   
+}
+.artigos:before{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    background: #fff;
+    z-index:-1;
+    content: '';
+}
+.noticias{
+    border: 0px solid #0076a3;
+    text-align: justify;
+    line-height: 24px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 25px;
+   /* box-shadow: 5px 5px 10px #0076a3;
+    -webkit-box-shadown: 5px 5px 2px #0076a3;
+    -moz-box-shadown: -1px -1px 2px #0076a3;*/
+    
+}
+.noticias:hover{
+    box-shadow: 0px 0px 1em #666;
+-webkit-box-shadow: 0px 0px 1em #666;
+-moz-box-shadow: 0px 0px 1em #666;
+}
+.noticias h1{
+    color: #333;
+    text-shadow: #333 1px 2px 5px;
+    font-size: 20px;
+    
+    
+}
+.imagem{
+    float: left;
+    padding: 5px;
+    width: 500px;
+    height: 300px;
+}
+.span{
+    padding-left: 30px;
+}
+.rodape{
+    padding: 20px;
+    text-align: center;
+    width: 922px;
+	margin: 0 auto;
+    font-family:sans-serif;
+    background: linear-gradient(#333,#fff);
+    box-shadow: 5px 5px 10px #60737a;
+    -webkit-box-shadown: 5px 5px 2px #60737a;
+    -moz-box-shadown: -1px -1px 2px #60737a;
 }
