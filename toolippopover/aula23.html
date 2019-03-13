@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pesquisa</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 my-3 d-flex justify-content-center p-3">
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Pedidos Recentes"><i
+                        class=""></i> Pedidos Recentes</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Enviar Cliente"><i
+                        class=""></i> EnviarCliente</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Pagamento"><i
+                        class=""></i>Pagamento</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Receber Pagamento"><i
+                        class=""></i>Receber Pagamento</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Todos os pedidos"><i
+                        class=""></i> Todos osPedidos</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Novo Pedido"><i
+                        class=""></i> Novo Pedido</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Página Inicial"><i
+                        class=""></i> Página Inicial</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 d-flex justify-content-center p-2">
+                <p class="lead">Pesquisar  Produtos</p>
+            </div>
+            <div class="col-sm-12">
+                <p>Descrição</p>
+                <input type="text" class="input">
+                <hr>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Pesquisar"><i
+                        class="fas fa-search"></i>Pesquisar</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Recarregar"><i
+                        class="fas fa-refresh"></i> Recarregar</button>
+                <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Novo"><i class=""></i>
+                    Novo</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <table class="col-10 my-4 mx-auto table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Situação</th>
+                        <th scope="col">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Pizza</td>
+                        <td><span class="badge badge-pill bg-success">ativo</span></td>
+                        <td>
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Refrigerante</td>
+                        <td><span class="badge badge-pill bg-success">ativo</span></td>
+                        <td>
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Cajuína</td>
+                        <td><span class="badge badge-pill bg-secondary">inativo</span></td>
+                        <td>
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                            <th scope="row">3</th>
+                            <td>Borda</td>
+                            <td><span class="badge badge-pill bg-secondary">inativo</span></td>
+                            <td>
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            let allButtons = $('[data-toggle="tooltip"]');
+            console.log(allButtons)
+            allButtons.tooltip()
+        })
+    </script>
+</body>
+
+</html>
