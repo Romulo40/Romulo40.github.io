@@ -277,24 +277,99 @@
 
                         <div class="row">
                             <div class="col-sm-12">
-                                <button type="button" class="btn btn-outline-primary">Funcionários</button>
-                                <button type="button" class="btn btn-outline-primary">Funções</button>
-                                <button type="button" class="btn btn-outline-primary">Fornecedores</button>
-                                <button type="button" class="btn btn-outline-primary">Clientes</button>
-                                <button type="button" class="btn btn-outline-primary">Notas Fiscais</button>
-                                <button type="button" class="btn btn-outline-primary">Ferramentas</button>
-                                <button type="button" class="btn btn-outline-primary">Materiais</button>
-                                
-                                
-
-
-
-
-
-
-
-
-                                
+                                <div class="col-md-12 my-3 d-flex justify-content-center p-3">
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Funcionarios"><i
+                                            class=""></i> Funcionários</button>
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Funcoes"><i
+                                            class=""></i> Funções</button>
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Clientes"><i
+                                            class=""></i>Clientes</button>
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Fornecedores"><i
+                                            class=""></i>Fornecedores</button>
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Notas Fiscais"><i
+                                            class=""></i> Notas Fiscais</button>
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Ferramentas"><i
+                                            class=""></i> Ferramentas</button>
+                                    <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Materiais"><i
+                                            class=""></i> Materiais</button>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 d-flex justify-content-center p-2">
+                                        <p class="lead">Pesquisar  Funcionários</p>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <p>Descrição</p>
+                                        <input type="text" class="input">
+                                        <hr>
+                                        <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Pesquisar"><i
+                                                class="fas fa-search"></i>Pesquisar</button>
+                                        <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Recarregar"><i
+                                                class="fas fa-refresh"></i> Recarregar</button>
+                                        <button class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="top" title="Novo"><i class=""></i>
+                                            Novo</button>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <table class="col-10 my-4 mx-auto table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">ID</th>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col">Situação</th>
+                                            <th scope="col">Ações</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Francisco Rômulo</td>
+                                            <td><span class="badge badge-pill bg-success">ativo</span></td>
+                                            <td>
+                                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Rosa Lina</td>
+                                            <td><span class="badge badge-pill bg-success">ativo</span></td>
+                                            <td>
+                                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>José Lopes</td>
+                                            <td><span class="badge badge-pill bg-secondary">inativo</span></td>
+                                            <td>
+                                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                                <th scope="row">3</th>
+                                                <td>Aderson Gomes</td>
+                                                <td><span class="badge badge-pill bg-secondary">inativo</span></td>
+                                                <td>
+                                                    <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Novo"><i class="fas fa-file"></i></button>
+                                                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-edit"></i></button>
+                                                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Excluir"><i class="fas fa-trash"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
