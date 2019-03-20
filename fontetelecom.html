@@ -34,11 +34,13 @@
     <!-- ============================================================== -->
     <div class="splash-container">
         <div class="card ">
-            <div class="card-header text-center"><a href="index.html"><img class="logo-img" src="assets/images/fontetelecom.png" alt="logo"></a><span class="splash-description">Problema de conexão com sua rede wifi, para se conectar digite a senha para validação do acesso.</span></div>
-            
+                <p class="lead d-flex justify-content-center">Login</p>
+            <div class="card-header text-center"><span class="splash-description">Entre com suas informações de usuário.</span></div>
             <div class="card-body">
                 <form>
-                    <div class="card-header text-center"><span class="splash-description">REDE: Maria</span></div>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" id="username" type="text" placeholder="Usuário" autocomplete="off">
+                    </div>
                     <div class="form-group">
                         <input class="form-control form-control-lg" id="password" type="password" placeholder="Senha">
                     </div>
@@ -47,12 +49,15 @@
                             <input class="custom-control-input" type="checkbox"><span class="custom-control-label">Lembrar-me</span>
                         </label>
                     </div>
-                    
+                    <div class="d-flex justify-content-center mb-5">
+                            <button class="btn btn-primary mr-3">Facebook <i class="fab fa-facebook-f"></i></button>
+                            <button class="btn btn-danger">Google <i class="fab fa-google"></i></button>
+                        </div>
                 </form>
             </div>
             <div class="card-footer bg-white p-0  ">
                 <div class="card-footer-item card-footer-item-bordered">
-                    <a href="#" class="footer-link">Conectar</a></div>
+                    <a href="#" class="footer-link">Entrar</a></div>
                 <div class="card-footer-item card-footer-item-bordered">
                     <a href="#" class="footer-link">Esqueci minha senha</a>
                 </div>
